@@ -1,0 +1,515 @@
+.homecontainer{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin-left: 2em;
+    margin-right: 2em;
+
+}
+.section1{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    /* padding: 20px; */
+    max-width: 100%;
+
+}
+.Main-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 20px; */
+}
+
+.irrigation-heading{
+    display: flex; 
+    flex-direction:row;
+    align-items: center;
+    margin-top: 2em;
+    /* padding: 20px; */
+    font-size: 45px;
+}
+.irrigate{
+    margin-right: 10px;
+    font-weight: bolder;
+    
+    color:#3AFF1A;
+}
+.ur-plant{
+    color:white;
+    word-spacing: 5px;
+}
+.hassles{
+    
+    font-weight: bolder;
+    font-size: 45px;
+    color:white;
+}
+.subheading{
+    color:white;
+    font-size: 45px;
+}
+
+.agriflow{
+    color:#3AFF1A;
+}
+.paragraph-wrap{
+    display: flex;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    flex-direction: column;
+}
+.para-styles{
+    color:white;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+
+}
+.tractorimg{
+    background-color: white;
+    width: 60%;
+    height: auto;
+    border-radius: 30px;
+}
+
+.why-agri{
+    /* margin-top: 2em; */
+    /* margin-left: 50px; */
+    color:rgba(255, 255, 255, 0.5);
+
+}
+.info-container
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em;
+    max-width: 100%;
+}
+.agri-image{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+    max-width: 30%;
+}
+.image{
+    width: 400px;
+    height: 350px;
+}
+.info-innercontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 20px; 
+    justify-content: flex-start;
+
+}
+.para-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.iconpoint{
+    width:50px;
+    height: 50px;
+    padding: 10px;
+}
+.iconlist{
+    display:flex;
+    flex-direction: column;
+    
+    
+}
+.list-wrap{
+    display: flex;
+
+}
+.list-img{
+    color:white;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.list-item{
+    display: flex; 
+    justify-content: flex-start;
+}
+
+.listpara{
+    display: flex;
+    /* white-space: nowrap; */
+    /* position: absolute; */
+}
+.client-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 1em;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    max-width: 100%;
+}
+.clients{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+
+}
+ .clientimagewrap{ 
+    margin-top:2em;
+    margin-bottom: 10px;
+}  
+.clientimg{
+    width:150px;
+    border-radius: 150px;
+    
+}
+.founder{
+    margin-bottom: 3em;
+    text-align: center;
+}
+.founder-para{
+    font-size: smaller;
+}
+.founder-info{
+    margin-top: 1em;
+    margin-bottom: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    text-justify: inter-word;
+}
+.autoGraph{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    margin-right: 3em;
+}
+.register-button{
+    width: 300px;
+}
+.tech-container{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+    /* flex: 1 1 0; */
+    justify-content: space-evenly;
+}
+.techies-info{
+    
+   padding: 20px;
+   position: relative; 
+   color: #260446;
+}
+.text1-on-img{
+
+  font-size: medium;
+  font-weight: bold;
+  position: absolute;
+  top: 50px;
+  margin-left: 50px;
+}
+
+
+  
+.techimg{
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  object-position: bottom;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.pricing-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em;
+    margin-bottom: 3em;
+  
+    justify-content: center;
+    /* padding: 30px; */
+    max-width: 100%;
+}
+.Plans{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height:auto;
+    background-color: white;
+    color: #260446;
+    padding: 20px;
+    margin-left: 40px;
+    border-radius: 30px;
+}
+.free{
+    margin-bottom: 1px;
+    font-size: 28px;
+    font-weight: bolder;
+    
+}
+.text{
+    font-size: 13px;
+}
+.reg-butn{
+    width: auto;
+    color: #260446;
+    border-radius: 5px;
+    border:1px solid;
+}
+.orderbutton{
+    width:450px;
+    height: 45px;
+    border-radius: 10px;
+    background:#180A25;
+    color:white;
+    border:1px soild;
+    border-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.button-wrap{
+    display: flex;
+    justify-content: center;
+}
+
+.list-style{
+    list-style: disc;
+    font-size: 18px;
+}
+   
+@media only screen 
+and (min-device-width : 375px)   
+and (max-device-width : 675px)  
+{ /* STYLES GO HERE */ 
+    .section1{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        /* padding: 10px; */
+        margin-top: 2em;
+        align-items: flex-start;
+        
+        
+    }
+    
+    .Main-heading{
+        display: flex;
+        align-items: flex-start;
+        
+        
+  
+    }
+    .irrigation-heading{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 1em;
+        
+    
+    }
+    .irrigate{
+        margin-right: 80px;
+        font-size:60px;
+        
+    }
+    .ur-plant{
+        font-size: 30px;
+    }
+    .hassles{
+        margin-left: 10px;
+        font-size: 20px;
+        
+    }
+    .paragraph-wrap{
+      
+      text-align: left;
+      /* width: 60%; */
+        
+    }
+    .para-styles{
+        font-size: 10px;
+        text-align: left;
+    }
+    
+    .tractorimg{
+        display: flex;
+        justify-content: center;
+        width:300px ;
+        border-radius: 10px;
+    
+    }
+    .tractor{
+        width:200px;
+        height: auto;
+    }
+    .why-agri{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+    }
+    .info-container{
+        display: flex;
+        margin-bottom: 1em;
+        padding: 0px;
+        margin-top: 1em;
+
+    }
+    .inverted{
+        flex-direction: column-reverse;
+    }
+    .normal{
+        flex-direction: column;
+    }
+    
+    .agri-image{
+        
+        display: flex;
+        align-items: center;
+        background-color: white;
+        border-radius: 10px;
+    }
+    .image{
+        width: 300px;
+        height: 100px;
+    }
+    .client-container{
+        display: grid;
+        grid-template-columns: 1fr  ;
+        flex-direction: row;
+        gap: 10px;
+    }
+    .clients{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+        margin-left: 2em;
+        margin-right: 1em;
+        /* max-width: 250px; */
+        border-radius: 30px; 
+    }
+    .subheading{
+        font-size: 18px;
+        white-space: nowrap;
+    }
+    .iconpoint{
+        width: 20px;
+        height: 20px;
+    }
+    .techies{
+        
+        width: 250px;
+        margin-top: 4em;
+        margin-bottom: 5px;
+    }
+    
+
+    .text1-on-img{
+
+        font-size: medium;
+        font-weight: bold;
+        flex-wrap: nowrap;
+        position: absolute;
+        top: 102px;
+        margin-left: 50px;
+      }
+      .tech-container{
+        display: flex;
+        align-items: center;
+        background-color: white;
+        border-radius: 10px;
+        justify-content: space-evenly;
+    }
+    
+      .techimg{
+        max-width: 10%;
+        height: auto;
+        object-fit: contain;
+        object-position: bottom;
+        margin-bottom: 10px;
+        margin-top: 10px;
+      }
+    .viewMore{
+        margin-bottom: 8em;
+    }
+     
+   
+    .info-innercontainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center; padding: 0px; 
+        justify-content: flex-start;
+        align-items: flex-start;
+        }
+    .pricing-container{
+       
+        display: flex;
+        flex-direction: row; 
+        justify-content: center;
+        max-width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+        
+         }
+    .Plans{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100px;
+            height:auto;
+            padding: 4px;
+          margin-left: 1em;
+          border-radius: 1em;
+          }
+          .plan-h1{
+            font-size: 18px;
+          }
+          .list-style{
+            font-size: 7px;
+          }
+          .list-wrap{
+            padding: 10px;
+          }
+          .plan-inr{
+            font-size: 14px;
+            font-weight: bolder;
+          }
+          .permonth{
+            font-size: 7px;
+          }
+          .text{
+            font-size: 5px;
+          }
+          .free{
+            font-size: 14px;
+          }
+
+          .reg-butn{
+            width: auto;
+            font-size: 7px;
+          }
+          .button-wrap{
+            justify-content: center;
+            flex-direction: column;
+          }
+          .orderbutton{
+            width: auto;
+            margin-top: 10px;
+          }
+
+
+}
+
+
